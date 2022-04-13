@@ -3,7 +3,9 @@ import getters from './getters';
 import mutations from './mutations';
 
 // initial state
-const state: example.state.ExampleState = {};
+const state: example.state.ExampleState = {
+  playerList: []
+};
 
 export default {
     state,
